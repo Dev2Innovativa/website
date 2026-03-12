@@ -2323,3 +2323,10 @@ font-size:18px;
 .header .logo img {
   max-height: 70px;
 }
+.service-list{
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* 2 columns */
+  justify-content: center; /* center the whole block */
+  gap: 15px 60px; /* row gap and column gap */
+  text-align: center;
+}
