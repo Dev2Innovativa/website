@@ -1,0 +1,457 @@
+.about-company{
+background:#f8f9fa;
+}
+
+.about-company h2{
+font-size:34px;
+}
+
+.about-company p{
+font-size:16px;
+}
+.modern-about{
+background:linear-gradient(135deg,#eef2ff,#f9f9ff);
+}
+
+/* Glass Card */
+
+.glass-card{
+padding:35px 25px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+background:rgba(255,255,255,0.6);
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.4s;
+height:100%;
+position:relative;
+overflow:hidden;
+}
+
+/* Hover Effect */
+
+.glass-card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Icon */
+
+.icon-box{
+font-size:40px;
+margin-bottom:15px;
+animation:float 3s ease-in-out infinite;
+}
+
+/* Icon Animation */
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-8px);}
+100%{transform:translateY(0);}
+}
+
+/* Gradient Borders */
+
+.mission-card{
+border-top:4px solid #6c63ff;
+}
+
+.aim-card{
+border-top:4px solid #00c9a7;
+}
+
+.vision-card{
+border-top:4px solid #ff7a18;
+}
+
+/* Text */
+
+.glass-card h4{
+font-weight:700;
+margin-bottom:15px;
+}
+
+.glass-card p{
+font-size:15px;
+line-height:1.7;
+color:#555;
+}
+
+.solutions-section{
+padding:80px 0;
+background:#f8f9fc;
+}
+
+.section-title h2{
+font-size:36px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.section-title p{
+color:#666;
+margin-bottom:50px;
+}
+
+.solution-card{
+background:#fff;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+text-align:center;
+transition:all .3s ease;
+height:100%;
+}
+
+.solution-card img{
+width:50px;
+margin-bottom:20px;
+}
+
+.solution-card h4{
+font-size:20px;
+font-weight:600;
+margin-bottom:15px;
+}
+
+.solution-card p{
+font-size:15px;
+color:#666;
+}
+
+.solution-card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 35px rgba(0,0,0,0.15);
+}
+
+.stats-section{
+background:#f8f9fa;
+}
+
+.stat-box{
+padding:25px;
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.stat-box:hover{
+transform:translateY(-6px);
+}
+
+.stat-img{
+width:60px;
+}
+
+.stat-box h3{
+font-size:28px;
+color:#4a90e2;
+}
+
+.stat-box p{
+font-size:14px;
+color:#555;
+}
+
+.why-section{
+background:#f8f9fa;
+}
+
+.why-card{
+background:white;
+padding:30px 25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+height:90%;
+width: 80%;
+}
+
+.why-card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.why-card img{
+width:60px;
+}
+
+.why-card h5{
+font-size:18px;
+}
+
+.why-card p{
+font-size:14px;
+color:#555;
+margin-top:10px;
+}
+
+#hero {
+  position: relative;
+  height: 100vh;
+}
+
+#hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.start-text{
+  color: #28a745;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.grow-btn{
+  background-color: #2f3130;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.grow-btn:hover{
+  background-color: #218838;
+  color: #fff;
+}
+.business-growth-section{
+  background: linear-gradient(135deg,#f4f8ff,#eef3ff);
+}
+
+.tech-box{
+  background:white;
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:auto;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+.tech-box img{
+  width:65px;   /* increased image size */
+}
+
+.tech-name{
+  margin-top:12px;
+  font-size:18px;   /* increased text size */
+  font-weight:600;
+  color:#333;
+}
+
+.tech-box:hover{
+  transform:translateY(-8px) scale(1.05);
+  box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.services-section{
+background:linear-gradient(135deg,#f8f9ff,#eef2ff);
+}
+
+.service-card{
+background:#ffffff;
+padding:35px 25px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 8px 25px rgba(0,0,0,0.05);
+transition:all 0.4s ease;
+height:100%;
+position:relative;
+overflow:hidden;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+.icon-box{
+width:80px;
+height:80px;
+margin:auto;
+background:#f1f4ff;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom:20px;
+transition:0.3s;
+}
+
+.service-card:hover .icon-box{
+background:#4a6cf7;
+}
+
+.service-img{
+width:40px;
+transition:0.3s;
+}
+
+.service-card:hover .service-img{
+transform:scale(1.2);
+filter:brightness(0) invert(1);
+}
+
+.service-card h5{
+font-weight:600;
+margin-bottom:12px;
+}
+
+.service-card p{
+font-size:14px;
+color:#666;
+line-height:1.6;
+}
+
+.services-bottom-img{
+max-width:1100px;
+width:100%;
+margin:auto;
+display:block;
+}
+
+.file-manager-section{
+background:#f5f9ff;
+}
+
+.file-manager-section p{
+font-size:15px;
+line-height:1.7;
+color:#555;
+margin-bottom:15px;
+}
+
+.file-img{
+max-width:420px;
+width:90%;
+transition:0.3s;
+}
+
+.file-img:hover{
+transform:scale(1.05);
+}
+
+.dms-section{
+background:#f3f8ff;
+}
+
+.dms-section p{
+font-size:15px;
+line-height:1.7;
+color:#555;
+margin-bottom:15px;
+}
+
+.dms-img{
+max-width:420px;
+width:90%;
+transition:0.3s;
+}
+
+.dms-img:hover{
+transform:scale(1.05);
+}
+
+.converter-section{
+background:#f8fbff;
+}
+
+.converter-subtitle{
+max-width:800px;
+margin:auto;
+color:#666;
+font-size:16px;
+}
+
+.converter-card{
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+text-align:center;
+height:100%;
+transition:0.3s;
+}
+
+.converter-card:hover{
+transform:translateY(-6px);
+}
+
+.converter-card img{
+max-width:70px;
+}
+
+.contact-options{
+background:#f3f5f8;
+}
+
+.contact-card{
+background:#fff;
+padding:30px 20px;
+border-radius:6px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.contact-card:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.contact-card h5{
+margin-top:15px;
+font-weight:600;
+}
+
+.contact-card p{
+font-size:14px;
+color:#444;
+}
+
+.contact-card a{
+color:#007bff;
+font-size:14px;
+text-decoration:none;
+}
+
+.icon{
+width:45px;
+height:45px;
+}
+
+.enquire-btn{
+background:#000;
+color:#fff;
+padding:12px 30px;
+border-radius:30px;
+text-decoration:none;
+display:inline-block;
+}
+
+.contact-form-map {
+background:#f8f9fb;
+}
+
+.contact-form-map input,
+.contact-form-map textarea{
+border-radius:4px;
+}
+
+.contact-form-map button{
+padding:10px 30px;
+}
