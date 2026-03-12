@@ -2330,3 +2330,12 @@ font-size:18px;
   gap: 15px 60px; /* row gap and column gap */
   text-align: center;
 }
+.service-box{
+  font-size:18px;
+  font-weight:500;
+}
+
+.hero-features p{
+  font-size:16px;
+  line-height:1.7;
+}
