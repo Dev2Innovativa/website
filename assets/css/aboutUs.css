@@ -30,7 +30,7 @@ overflow:hidden;
 /* Hover Effect */
 
 .glass-card:hover{
-transform:translate3d(0,-8px,0);
+transform:translateY(-10px);
 box-shadow:0 20px 40px rgba(0,0,0,0.15);
 }
 
@@ -39,8 +39,7 @@ box-shadow:0 20px 40px rgba(0,0,0,0.15);
 .icon-box{
 font-size:40px;
 margin-bottom:15px;
-animation:float 4s ease-in-out infinite;
-will-change: transform;
+animation:float 3s ease-in-out infinite;
 }
 
 /* Icon Animation */
@@ -107,9 +106,6 @@ height:100%;
 .solution-card img{
 width:50px;
 margin-bottom:20px;
-max-width:100%;
-height:auto;
-display:block;
 }
 
 .solution-card h4{
@@ -124,7 +120,7 @@ color:#666;
 }
 
 .solution-card:hover{
-transform:translate3d(0,-8px,0);
+transform:translateY(-8px);
 box-shadow:0 12px 35px rgba(0,0,0,0.15);
 }
 
@@ -141,7 +137,7 @@ transition:0.3s;
 }
 
 .stat-box:hover{
-transform:translate3d(0,-8px,0);
+transform:translateY(-6px);
 }
 
 .stat-img{
@@ -173,14 +169,12 @@ width: 80%;
 }
 
 .why-card:hover{
-transform:translate3d(0,-8px,0);
+transform:translateY(-8px);
 box-shadow:0 15px 35px rgba(0,0,0,0.15);
 }
 
 .why-card img{
 width:60px;
-max-width:320px;
-margin:auto;
 }
 
 .why-card h5{
@@ -194,9 +188,8 @@ margin-top:10px;
 }
 
 #hero {
-  position:relative;
-min-height:100vh;
-overflow:hidden;
+  position: relative;
+  height: 100vh;
 }
 
 #hero img {
@@ -246,7 +239,7 @@ overflow:hidden;
   align-items:center;
   justify-content:center;
   margin:auto;
-box-shadow:0 12px 28px rgba(0,0,0,0.12);
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
   transition:0.3s;
 }
 
@@ -263,7 +256,7 @@ box-shadow:0 12px 28px rgba(0,0,0,0.12);
 
 .tech-box:hover{
   transform:translateY(-8px) scale(1.05);
- box-shadow:0 12px 28px rgba(0,0,0,0.12);
+  box-shadow:0 15px 35px rgba(0,0,0,0.15);
 }
 
 .services-section{
@@ -275,7 +268,7 @@ background:#ffffff;
 padding:35px 25px;
 border-radius:12px;
 text-align:center;
-box-shadow:0 12px 28px rgba(0,0,0,0.12);
+box-shadow:0 8px 25px rgba(0,0,0,0.05);
 transition:all 0.4s ease;
 height:100%;
 position:relative;
@@ -283,8 +276,8 @@ overflow:hidden;
 }
 
 .service-card:hover{
-transform:translate3d(0,-8px,0);
-box-shadow:0 12px 28px rgba(0,0,0,0.12);
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
 }
 
 .icon-box{
@@ -389,14 +382,14 @@ font-size:16px;
 background:#fff;
 padding:25px;
 border-radius:10px;
-box-shadow:0 12px 28px rgba(0,0,0,0.12);
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
 text-align:center;
 height:100%;
 transition:0.3s;
 }
 
 .converter-card:hover{
-transform:translate3d(0,-8px,0);
+transform:translateY(-6px);
 }
 
 .converter-card img{
@@ -411,13 +404,13 @@ background:#f3f5f8;
 background:#fff;
 padding:30px 20px;
 border-radius:6px;
-box-shadow:0 12px 28px rgba(0,0,0,0.12);
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
 transition:0.3s;
 }
 
 .contact-card:hover{
-transform:translate3d(0,-8px,0);
-box-shadow:0 12px 28px rgba(0,0,0,0.12);
+transform:translateY(-5px);
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
 
 .contact-card h5{
@@ -463,11 +456,3 @@ border-radius:4px;
 padding:10px 30px;
 }
 
-.lazy{
-opacity:0;
-transition:opacity .4s ease;
-}
-
-.lazy.loaded{
-opacity:1;
-}
