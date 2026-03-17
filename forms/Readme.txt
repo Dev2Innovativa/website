@@ -1,2 +1,4 @@
 Fully working PHP/AJAX contact form script is available in the pro version of the template.
 You can buy it from: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
+
+url: http://localhost/InnovativaWebsite/Innovativa/index.html
