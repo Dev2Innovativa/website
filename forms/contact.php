@@ -15,14 +15,14 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 
-$mail->Username = 'inquiry@innovativasofttech.com';
-$mail->Password = 'YOUR_PASSWORD';
+$mail->Username = 'otp.innovativa@gmail.com';
+$mail->Password = 'alhdxfuswqcgxipa';
 
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
 $mail->setFrom($_POST['email'], $_POST['name']);
-$mail->addAddress('inquiry@innovativasofttech.com');
+$mail->addAddress('otp.innovativa@gmail.com');
 
 $mail->Subject = $_POST['subject'];
 
