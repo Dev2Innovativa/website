@@ -530,51 +530,180 @@ padding:10px 30px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
+
+/* CTA Container */
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Primary Button */
+.btn-cta-primary {
+  background: linear-gradient(135deg, #0d6efd, #004aad);
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-cta-primary:hover {
+  background: linear-gradient(135deg, #004aad, #0d6efd);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* Outline Button */
+.btn-cta-outline {
+  border: 2px solid #fff;
+  color: #f8f6f6;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-cta-outline:hover {
+  background: #fdfbfb;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255,255,255,0.3);
+}
+
+/* Outline Button */
+.btn-view {
+  border: 2px solid #fff;
+  color: #0e0d0d;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-view:hover {
+  background: #fcfbfd;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(127, 91, 175, 0.3);
+}
+
+/* 🔥 FLOATING DEMO BADGE */
 .demo-badge {
-  width: 90px;   /* reduced from 150px */
-  height: 90px;  /* reduced from 150px */
+  position: fixed;
+  right: 30px;
+  top: 45%;
+  transform: translateY(-50%);
+  
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  
+  color: #fff;
   border-radius: 50%;
   
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-
-  background: linear-gradient(135deg, #ffb300, #ff6f00);
-  color: #000;
-
-  font-weight: 700;
+  align-items: center;
+  
   text-align: center;
-
-  box-shadow: 0 0 0 rgba(255, 179, 0, 0.7);
-  animation: pulse 2s infinite;
-
-  cursor: pointer;
-  transition: all 0.3s ease;
+  font-weight: 700;
+  
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  
+  z-index: 999;
+  
+  animation: pulseGlow 2s infinite;
+  transition: 0.3s ease;
 }
 
-/* Text adjustment for smaller circle */
-.demo-badge p {
-  font-size: 12px;   /* reduced */
-  line-height: 1.2;
-  margin: 0;
+/* TEXT STYLE */
+.demo-text {
+  font-size: 20px;
+  line-height: 1;
 }
 
-/* Hover Effect (slightly reduced) */
+.demo-sub {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 🔥 HOVER EFFECT */
 .demo-badge:hover {
-  transform: scale(1.08) rotate(2deg);
-  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.5);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
 }
 
-/* Pulse Animation */
-@keyframes pulse {
+/* 🔥 PULSE ANIMATION */
+@keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 179, 0, 0.7);
+    box-shadow: 0 0 0 0 rgba(255, 87, 34, 0.6);
   }
   70% {
-    box-shadow: 0 0 0 18px rgba(255, 179, 0, 0); /* reduced spread */
+    box-shadow: 0 0 0 20px rgba(255, 87, 34, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 179, 0, 0);
+    box-shadow: 0 0 0 0 rgba(255, 87, 34, 0);
+  }
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 768px) {
+  .demo-badge {
+    width: 90px;
+    height: 90px;
+    right: 15px;
+  }
+
+  .demo-text {
+    font-size: 16px;
+  }
+
+  .demo-sub {
+    font-size: 12px;
+  }
+}
+
+/* 🔥 HEADING + BADGE WRAPPER */
+.heading-wrapper {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* 🎯 KEEP HEADING CENTER */
+.main-heading {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* 🚀 PLACE BADGE ON RIGHT OF HEADING */
+.heading-wrapper .demo-badge {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 768px) {
+  .heading-wrapper .demo-badge {
+    position: static;
+    margin-top: 15px;
+    transform: none;
   }
 }

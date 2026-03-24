@@ -16,7 +16,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 
 $mail->Username = 'otp.innovativa@gmail.com';
-$mail->Password = 'alhdxfuswqcgxipa';
+$mail->Password = 'Your_PASSWORD';
 
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
