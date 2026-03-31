@@ -1830,12 +1830,7 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
 /*--------------------------------------------------------------
 # Blog Posts Section
@@ -2344,3 +2339,7 @@ font-size:18px;
   object-fit:cover;
 }
 
+#header {
+  background: rgba(0, 0, 0, 0.7); /* dark transparent */
+  transition: all 0.3s ease;
+}
