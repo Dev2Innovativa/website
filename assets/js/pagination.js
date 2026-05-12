@@ -1,4 +1,4 @@
-const totalPages = 7;
+const totalPages = 8;
 
 let currentPage = 1;
 const path = window.location.pathname;
